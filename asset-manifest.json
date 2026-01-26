@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Luke-Godbold/static/css/main.307a310b.css",
-    "main.js": "/Luke-Godbold/static/js/main.19abb46f.js",
-    "static/js/453.d7446e4a.chunk.js": "/Luke-Godbold/static/js/453.d7446e4a.chunk.js",
-    "index.html": "/Luke-Godbold/index.html",
-    "main.307a310b.css.map": "/Luke-Godbold/static/css/main.307a310b.css.map",
-    "main.19abb46f.js.map": "/Luke-Godbold/static/js/main.19abb46f.js.map",
-    "453.d7446e4a.chunk.js.map": "/Luke-Godbold/static/js/453.d7446e4a.chunk.js.map"
+    "main.css": "/static/css/main.307a310b.css",
+    "main.js": "/static/js/main.ee5466ac.js",
+    "static/js/453.d7446e4a.chunk.js": "/static/js/453.d7446e4a.chunk.js",
+    "index.html": "/index.html",
+    "main.307a310b.css.map": "/static/css/main.307a310b.css.map",
+    "main.ee5466ac.js.map": "/static/js/main.ee5466ac.js.map",
+    "453.d7446e4a.chunk.js.map": "/static/js/453.d7446e4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.307a310b.css",
-    "static/js/main.19abb46f.js"
+    "static/js/main.ee5466ac.js"
   ]
 }
