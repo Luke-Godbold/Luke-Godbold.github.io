@@ -18,20 +18,20 @@ function App() {
         <a href="#Projects" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>About</a>
       </ul>
 
-      <ul className = "bg-neutral-800 text-white justify-end justify-items-end lg:gap-30 sm:gap-5 sticky top-0 z-30 lg:hidden flex-row">
-        <li className="p-5 mr-auto">Luke's Portfolio</li>
-        <button onClick={() => setMenuOpen(!menuOpen)}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-        </button>
-
-        {menuOpen && (<>
-        <a href="#Home" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>Home</a>
-        <a href="#Projects" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>Projects</a>
-        <a href="#Projects" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>About</a></>)}
-      </ul>
-
+      <div className='bg-neutral-800 text-white gap-5 sticky top-0 z-30 lg:hidden absolute'>
+        <ul className = "flex flex-row">
+          <li className="p-5 mr-auto">Luke's Portfolio</li>
+          <button onClick={() => setMenuOpen(!menuOpen)} className='pr-3'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-10">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
+        </ul>
+        {menuOpen && (<div className='flex flex-col'>
+          <a href="#Home" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>Home</a>
+          <a href="#Projects" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>Projects</a>
+          <a href="#Projects" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>About</a></div>)}
+      </div>
 
       <div className='p-10  lg:flex justify-center gap-20' id='Home'>
         <div className='bg-neutral-800 rounded-3xl flex flex-col p-5 gap-10 text-center
