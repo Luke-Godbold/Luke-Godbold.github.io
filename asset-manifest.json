@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Luke-Godbold/static/css/main.307a310b.css",
-    "main.js": "/Luke-Godbold/static/js/main.19abb46f.js",
+    "main.js": "/Luke-Godbold/static/js/main.0306dcca.js",
     "static/js/453.d7446e4a.chunk.js": "/Luke-Godbold/static/js/453.d7446e4a.chunk.js",
     "index.html": "/Luke-Godbold/index.html",
     "main.307a310b.css.map": "/Luke-Godbold/static/css/main.307a310b.css.map",
-    "main.19abb46f.js.map": "/Luke-Godbold/static/js/main.19abb46f.js.map",
+    "main.0306dcca.js.map": "/Luke-Godbold/static/js/main.0306dcca.js.map",
     "453.d7446e4a.chunk.js.map": "/Luke-Godbold/static/js/453.d7446e4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.307a310b.css",
-    "static/js/main.19abb46f.js"
+    "static/js/main.0306dcca.js"
   ]
 }
