@@ -18,9 +18,9 @@ function App() {
         <a href="#Projects" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>About</a>
       </ul>
 
-      <ul className = "bg-neutral-800 text-white justify-end justify-items-end lg:gap-30 sm:gap-5 sticky top-0 z-30 hidden lg:flex md:flex">
+      <ul className = "bg-neutral-800 text-white justify-end justify-items-end lg:gap-30 sm:gap-5 sticky top-0 z-30 lg:hidden">
         <li className="p-5 mr-auto">Luke's Portfolio</li>
-        <button onClick={setMenuOpen(!menuOpen)}>
+        <button onClick={() => setMenuOpen(!menuOpen)}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
           </svg>
@@ -46,7 +46,7 @@ function App() {
 
         <div className='flex flex-wrap sm:w-full lg:w-2/5 gap-10 p-5 justify-center bg-neutral-600 rounded-3xl'>
           <div className='lg:w-1/5 sm:w-1/3 w-1/4 rounded-xl h-auto object-contain tooltip transition delay-100 duration-300 ease-in-out hover:-translate-y-3'>
-            <img src="/Icons/HTML.png" alt="Html Logo"></img>
+            <img src="/Icons/HTML.png" alt="Html Logo" ></img>
             <span className='tooltiptext'>HTML is the building blocks for websites</span>
           </div>
           <div className='lg:w-1/5 sm:w-1/3 w-1/4 rounded-xl h-auto object-contain tooltip transition delay-100 duration-300 ease-in-out hover:-translate-y-3'>
