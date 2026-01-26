@@ -18,7 +18,7 @@ function App() {
         <a href="#Projects" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>About</a>
       </ul>
 
-      <ul className = "bg-neutral-800 text-white justify-end justify-items-end lg:gap-30 sm:gap-5 sticky top-0 z-30 lg:hidden">
+      <ul className = "bg-neutral-800 text-white justify-end justify-items-end lg:gap-30 sm:gap-5 sticky top-0 z-30 lg:hidden flex-row">
         <li className="p-5 mr-auto">Luke's Portfolio</li>
         <button onClick={() => setMenuOpen(!menuOpen)}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
