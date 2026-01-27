@@ -88,11 +88,11 @@ function App() {
       <div className='p-10 flex flex-col lg:flex-row md:flex-row justify-center items-center gap-20' id='Projects'>
         
         <div className='bg-neutral-800 p-5 rounded-3xl w-full lg:w-2/5 md:w-2/5 lg:flex justify-center'>
-          <img src='/Projects/Hypertext.png' alt='Hypertext Screenshot' className='lg:w-1/2 w-full h-auto outline-1 rounded-3xl object-contain'></img>
+          <img src='/Projects/Hypertext.png' alt='Hypertext Screenshot' className='lg:w-2/5 w-full h-auto outline-1 rounded-3xl object-contain'></img>
           <div className='p-5 rounded-3xl lg:w-3/4 lg:flex lg:flex-col w-full text-center gap-5'>
-            <div className='flex flex-row w-full'>
-              <h1 className='text-3xl lg:text-5xl font-semibold underline underline-offset-5 w-3/4'>Hypertext Project</h1>
-              <a href='https://github.com/Luke-Godbold/HyperText.git' rel='noopener noreferrer' target="_blank" className='w-2/10'><img src="/Icons/github-icon.png" alt='github logo' className='w-full'  ></img></a>
+            <div className='flex flex-row w-full lg:gap-5 gap-3'>
+              <h1 className='text-3xl lg:text-4xl font-semibold underline underline-offset-5 w-3/4'>Hypertext Project</h1>
+              <a href='https://github.com/Luke-Godbold/HyperText.git' rel='noopener noreferrer' target="_blank" className='w-2/10 lg:w-3/20 flex justify-center'><img src="/Icons/github-icon.png" alt='github logo' className='w-full object-contain'  ></img></a>
             </div>
             <p className='text-md lg:text-xl'>In this project I made a webstory game in which the story was effected by the users choices. For this game I had to make a turn based combat system.</p>
             
@@ -100,11 +100,11 @@ function App() {
         </div>
 
         <div className='bg-neutral-800 p-5 rounded-3xl w-full lg:w-2/5 md:w-2/5 lg:flex justify-center'>
-          <img src='/Projects/Database.png' alt='Database screenshot' className='lg:w-1/2 w-full h-auto outline-1 rounded-3xl object-contain'></img>
+          <img src='/Projects/Database.png' alt='Database screenshot' className='lg:w-2/5 w-full h-auto outline-1 rounded-3xl object-contain'></img>
           <div className='p-5 rounded-3xl lg:w-3/4 lg:flex lg:flex-col w-full text-center gap-5'>
-            <div className='flex flex-row w-full gap-5'>
-              <h1 className='text-3xl lg:text-5xl font-semibold underline underline-offset-5 w-3/4'>Database Project</h1>
-              <a href='https://github.com/Luke-Godbold/Database' rel='noopener noreferrer' target="_blank" className='w-2/10 '><img src="/Icons/github-icon.png" alt='github logo' className='w-full'  ></img></a>
+            <div className='flex flex-row w-full lg:gap-5 gap-3'>
+              <h1 className='text-3xl lg:text-4xl font-semibold underline underline-offset-5 w-3/4'>Database Project</h1>
+              <a href='https://github.com/Luke-Godbold/Database' rel='noopener noreferrer' target="_blank" className='w-2/10 lg:w-3/20 flex justify-center'><img src="/Icons/github-icon.png" alt='github logo' className='w-full object-contain'  ></img></a>
             </div>
             <p className='text-md lg:text-xl'>In this project I used React and Flask to create a college website. In this website there are student accounts and teacher accounts. The different Account Types have different pages they can view.</p>
             
