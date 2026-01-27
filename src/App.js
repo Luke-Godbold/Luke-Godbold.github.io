@@ -15,7 +15,7 @@ function App() {
         <li className="p-5 mr-auto">Luke's Portfolio</li>
         <a href="#Home" className='p-5 px-15 cursor-pointer hover:bg-green-600' role='navigation'>Home</a>
         <a href="#Projects" className='p-5 px-15 cursor-pointer hover:bg-green-600' role='navigation'>Projects</a>
-        <a href="#Projects" className='p-5 px-15 cursor-pointer hover:bg-green-600' role='navigation'>About</a>
+        <a href="#About" className='p-5 px-15 cursor-pointer hover:bg-green-600' role='navigation'>About</a>
       </ul>
 
       <div className='bg-neutral-800 text-white gap-5 sticky top-0 z-30 lg:hidden md:hidden absolute'>
@@ -30,7 +30,7 @@ function App() {
         {menuOpen && (<div className='flex flex-col'>
           <a href="#Home" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>Home</a>
           <a href="#Projects" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>Projects</a>
-          <a href="#Projects" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>About</a></div>)}
+          <a href="#About" className='p-5 cursor-pointer hover:bg-green-600' role='navigation'>About</a></div>)}
       </div>
 
       <div className='p-10  lg:flex md:flex justify-center gap-20' id='Home'>
@@ -111,6 +111,15 @@ function App() {
           </div>
         </div>
 
+      </div>
+
+      <div className='p-10 flex flex-col lg:flex-row md:flex-row justify-center items-center gap-20' id='About'> 
+        <div className='bg-neutral-800 p-5 rounded-3xl w-full lg:w-2/5 md:w-2/5 lg:flex justify-center flex flex-col'>
+          <img src="/apple-touch-icon.png" alt='L icon' className='w-fit size-50 object-contain rounded-4xl'  ></img>
+          <h1>Luke Godbold</h1>
+        </div>
+
+        <div className='bg-neutral-800 p-5 rounded-3xl w-full lg:w-2/5 md:w-2/5 lg:flex justify-center'></div>
       </div>
 
       </div>
