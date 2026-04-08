@@ -30,7 +30,7 @@ const ParticlesBackground = () => {
             fullScreen: {enable: false,},
           background: {
             color: {
-              value: "#9C9C9C",
+              value: "#8f8f8f",
             },
           },
           fpsLimit: 120,
@@ -58,10 +58,10 @@ const ParticlesBackground = () => {
           },
           particles: {
             color: {
-              value: "#003EF7",
+              value: "#ffffff",
             },
             snow: {
-              color: "#003EF7",
+              color: "#ffffff",
               distance: 150,
               enable: true,
               opacity: 0.5,

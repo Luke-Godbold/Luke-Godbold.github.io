@@ -114,9 +114,16 @@ function App() {
       </div>
 
       <div className='p-10 flex flex-col lg:flex-row md:flex-row justify-center items-center gap-20' id='About'> 
-        <div className='bg-neutral-800 p-5 rounded-3xl w-full lg:w-2/5 md:w-2/5 lg:flex justify-center flex flex-col'>
+        <div className='bg-neutral-800 p-5 rounded-3xl w-full lg:w-2/5 md:w-2/5 flex justify-center items-center flex flex-col gap-2'>
           <img src="/apple-touch-icon.png" alt='L icon' className='w-fit size-50 object-contain rounded-4xl'  ></img>
-          <h1>Luke Godbold</h1>
+          <h1 className='font-semibold text-3xl'>Luke Godbold</h1>
+          <p>Norwich, UK</p>
+
+          <div className='flex flex-row w-full p-5 justify-center items-center gap-5'>
+            <a href='https://github.com/Luke-Godbold' rel='noopener noreferrer' target="_blank" className='w-2/10 lg:w-3/20 flex justify-center'><img src="/Icons/github-icon.png" alt='github account link' className='w-full object-contain'  ></img></a>
+            <a href='https://www.linkedin.com/in/luke-godbold-7396293b6/' rel='noopener noreferrer' target="_blank" className='w-2/10 lg:w-3/20 flex justify-center'><img src="/Icons/linkedin-icon.png" alt='linkedin account link' className='w-full object-contain'  ></img></a>
+            <a href='mailto:luke.godbold2018@icloud.com' rel='noopener noreferrer' target="_blank" className='w-2/10 lg:w-3/20 flex justify-center'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"></path><path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"></path></svg></a>
+          </div>
         </div>
 
         <div className='bg-neutral-800 p-5 rounded-3xl w-full lg:w-2/5 md:w-2/5 lg:flex justify-center'></div>
