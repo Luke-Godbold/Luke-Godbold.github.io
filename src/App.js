@@ -114,9 +114,16 @@ function App() {
       </div>
 
       <div className='p-10 flex flex-col lg:flex-row md:flex-row justify-center items-center gap-20' id='About'> 
-        <div className='bg-neutral-800 p-5 rounded-3xl w-full lg:w-2/5 md:w-2/5 lg:flex justify-center flex flex-col'>
+        <div className='bg-neutral-800 p-5 rounded-3xl w-full lg:w-2/5 md:w-2/5 flex justify-center items-center flex flex-col gap-2'>
           <img src="/apple-touch-icon.png" alt='L icon' className='w-fit size-50 object-contain rounded-4xl'  ></img>
-          <h1>Luke Godbold</h1>
+          <h1 className='font-semibold text-3xl'>Luke Godbold</h1>
+          <p>Norwich, UK</p>
+
+          <div className='flex flex-row w-full p-5 justify-center items-center gap-5'>
+            <a href='https://github.com/Luke-Godbold' rel='noopener noreferrer' target="_blank" className='w-2/10 lg:w-3/20 flex justify-center'><img src="/Icons/github-icon.png" alt='github account link' className='w-full object-contain'  ></img></a>
+            <a href='https://www.linkedin.com/in/luke-godbold-7396293b6/' rel='noopener noreferrer' target="_blank" className='w-2/10 lg:w-3/20 flex justify-center'><img src="/Icons/linkedin-icon.png" alt='linkedin account link' className='w-full object-contain'  ></img></a>
+            <a href='https://github.com/Luke-Godbold/Database' rel='noopener noreferrer' target="_blank" className='w-2/10 lg:w-3/20 flex justify-center'><img src="/Icons/email-icon.png" alt='email ' className='w-full object-contain'  ></img></a>
+          </div>
         </div>
 
         <div className='bg-neutral-800 p-5 rounded-3xl w-full lg:w-2/5 md:w-2/5 lg:flex justify-center'></div>
