@@ -202,7 +202,7 @@ function App() {
                   </svg>
                 </a>
                 <a href='mailto:luke.godbold2018@icloud.com' aria-label="Send an email to Luke Godbold" className={`${focus} w-2/10 lg:w-3/20 flex justify-center`}>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={darkMode ? "white" : "#1a1a1a"} aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={darkMode ? "white" : "#1a1a1a"} className="w-full" aria-hidden="true">
                     <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"/>
                     <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"/>
                   </svg>
@@ -223,7 +223,12 @@ function App() {
         {/* Footer */}
         <footer className='mt-auto p-10 pt-0 lg:flex md:flex justify-center'>
           <div className={`${CARD} p-6 flex flex-col md:flex-row justify-between items-center gap-4 w-full lg:w-[calc(80%+5rem)]`}>
-            <p className={`${subtext} text-sm`}>© 2026 Luke Godbold</p>
+            <a href="#Home" aria-label="Back to top of page" className={`${hover} ${focus} ${subtext} flex items-center gap-1 text-sm transition-all ease-out duration-200 hover:-translate-y-1`}>
+              Back to Top
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="size-4" aria-hidden="true">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+              </svg>
+            </a>
             <nav aria-label="Footer navigation" className={`flex flex-wrap justify-center gap-4 md:gap-10 ${subtext}`}>
               <a href="#Home" className={`${hover} ${focus} inline-block transition-all ease-out duration-200 hover:-translate-y-1`}>Home</a>
               <a href="#Projects" className={`${hover} ${focus} inline-block transition-all ease-out duration-200 hover:-translate-y-1`}>Projects</a>
@@ -231,12 +236,7 @@ function App() {
               <a href="/CV-LukeGodbold.pdf" download className={`${hover} ${focus} inline-block transition-all ease-out duration-200 hover:-translate-y-1`}>Download CV</a>
               <a href="mailto:luke.godbold2018@icloud.com" className={`${hover} ${focus} inline-block transition-all ease-out duration-200 hover:-translate-y-1`}>Contact</a>
             </nav>
-            <a href="#Home" aria-label="Back to top of page" className={`${hover} ${focus} ${subtext} flex items-center gap-1 text-sm transition-all ease-out duration-200 hover:-translate-y-1`}>
-              Back to Top
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="size-4" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
-              </svg>
-            </a>
+            <p className={`${subtext} text-sm`}>© 2026 Luke Godbold</p>
           </div>
         </footer>
 
